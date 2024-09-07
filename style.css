@@ -243,3 +243,7 @@ a:hover {
     min-width: 100px;
     height: auto;
 }
+
+#postcardtemplate {
+    display: none;
+}
