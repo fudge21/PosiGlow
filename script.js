@@ -4,7 +4,7 @@ document.querySelector("#icon").style.backgroundPosition = `0 ${100*random}%`
 
 document.querySelector('#postmaker textarea').addEventListener('focus', () => {
     document.querySelector("#postlist").style.opacity = 0
-     document.querySelector("#post").style.top = "82.5%"
+     document.querySelector("#post").style.top = "92.5%"
 });
 
 document.querySelector('#postmaker textarea').addEventListener('blur', () => {
