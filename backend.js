@@ -16,6 +16,9 @@ const firebaseConfig = {
     messagingSenderId: "949875472904",
     appId: "1:949875472904:web:65df5a963f56b0185a6fbd",
     measurementId: "G-EV3NG45468",
+    cookies: {
+        domain: '.fudgecreations.com',
+    },
 };
 
 // Initialize Firebase
