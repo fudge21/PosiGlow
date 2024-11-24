@@ -41,7 +41,7 @@ onAuthStateChanged(auth, (user) => {
         const urlParams = new URLSearchParams(window.location.search);
         const authtoken = urlParams.get("authtoken");
         if (authtoken != null && authtoken != "") {
-            signInWithCustomToken(auth, authtoken)  
+            signInWithCustomToken(auth, authtoken)     
         } else { 
             window.location.href = "https://fudgecreations.com/auth/request.html?requestsite=pg"
         }
