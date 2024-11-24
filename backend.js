@@ -42,7 +42,7 @@ onAuthStateChanged(auth, (user) => {
         const authtoken = urlParams.get("authtoken");
         if (authtoken != null && authtoken != "") {
             signInWithCustomToken(auth, authToken)  
-        } else {
+        } else { 
             window.location.href = "https://fudgecreations.com/auth/request.html?requestsite=pg"
         }
     }
