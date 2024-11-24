@@ -35,15 +35,15 @@ auth.useDeviceLanguage()
 
 onAuthStateChanged(auth, (user) => {
     if (user) {
-        // alert("User is signed in")
+        alert("User is signed in")
     } else {
-        // alert("No user is signed in")
+        alert("No user is signed in")
         const urlParams = new URLSearchParams(window.location.search);
         const authtoken = urlParams.get("authtoken");
         if (authtoken != null && authtoken != "") {
-            signInWithCustomToken(auth, authToken)
+            signInWithCustomToken(auth, authToken)  
+        } else {
             window.location.href = "https://fudgecreations.com/auth/request.html?requestsite=pg"
-            signInWithCustomToken(auth, authtoken)
         }
     }
-});
+}); 
